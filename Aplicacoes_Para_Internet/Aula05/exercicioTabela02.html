@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    table {
+      width: 100%;
+      /* para que a linha das bordas sejam apenas uma */
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    input {
+      width: 100%;
+      /* propriedade define como a largura e a altura totais de um elemento são calculadas. */
+      box-sizing: border-box;
+    }
+
+    #calculateButton {
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Tabela do Excel</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Valor 1</th>
+        <th>Valor 2</th>
+        <th>Operação</th>
+        <th>Resultado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="text" id="sum1"></td>
+        <td><input type="text" id="sum2"></td>
+        <td>
+          +
+        </td>
+        <td><input type="text" id="result_sum" readonly></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="sub1"></td>
+        <td><input type="text" id="sub2"></td>
+        <td>
+          -
+        </td>
+        <td><input type="text" id="result_sub" readonly></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="plus1"></td>
+        <td><input type="text" id="plus2"></td>
+        <td>
+          *
+        </td>
+        <td><input type="text" id="result_plus" readonly></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="div1"></td>
+        <td><input type="text" id="div2"></td>
+        <td>
+          /
+        </td>
+        <td><input type="text" id="result_div" readonly></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button id="calculateButton" onclick="calculate()">Calcular</button>
+
+  <script>
+    function calculate() {
+      // Obter os valores das células
+      var sum1 = parseFloat(document.getElementById('sum1').value) || 0;
+      var sum2 = parseFloat(document.getElementById('sum2').value) || 0;
+
+      var sub1 = parseFloat(document.getElementById('sub1').value) || 0;
+      var sub2 = parseFloat(document.getElementById('sub2').value) || 0;
+
+      var plus1 = parseFloat(document.getElementById('plus1').value) || 0;
+      var plus2 = parseFloat(document.getElementById('plus2').value) || 0;
+
+      var div1 = parseFloat(document.getElementById('div1').value) || 0;
+      var div2 = parseFloat(document.getElementById('div2').value) || 0;
+      
+      // Realizar a operação
+      var result_sum = sum1 + sum2
+      var result_sub = sub1 - sub2 
+      var result_plus = plus1 * plus2
+      var result_div = div1 / div2
+
+
+      // Atualizar o valor na célula de resultado
+      document.getElementById('result_sum').value = result_sum.toFixed(2);
+      document.getElementById('result_sub').value = result_sub.toFixed(2);
+      document.getElementById('result_plus').value = result_plus.toFixed(2);
+      document.getElementById('result_div').value = result_div.toFixed(2);
+
+    }
+  </script>
+
+</body>
+</html>
