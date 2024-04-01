@@ -1,0 +1,18 @@
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+.primeira {
+    background-color: rgb(255, 159, 10);
+}
+
+.segunda {
+    background-color: #FFF103;
+}
+
+.terceira {
+    background-color: rgba(255, 159, 10, 0.3);
+}

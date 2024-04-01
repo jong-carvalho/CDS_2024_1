@@ -1,0 +1,54 @@
+
+/* seletor universal */
+* {
+    background-color: mistyrose;
+}
+
+/* seletor elemento */
+span {
+    background-color: cadetblue;
+    width: 300px;
+    height: 200px;
+    display: block;
+}
+
+/* seletor agrupado */
+
+h1, h2, h3, p {
+    font-style: italic;
+    color: red;
+}
+
+/* seletor descendente */
+div p {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+
+div span {
+    width: 1200px;
+    background-color: transparent;
+}
+
+/* seletor filho */
+
+div > p {
+    color: purple;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-decoration: line-through;
+}
+
+
+.seletor_classe {
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+}
+
+#seletor_id {
+    background-color:teal;
+    width: 500px;
+    height: 500px;
+}
