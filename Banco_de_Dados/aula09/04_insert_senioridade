@@ -1,0 +1,97 @@
+--juniors
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9001, 2, 1, 0, 0, 0, 2328);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9002, 1, 1, 0, 0, 0, 1314);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9003, 2, 1, 0, 0, 0, 3548);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9004, 2, 1, 0, 0, 0, 1258);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9005, 2, 1, 0, 0, 0, 7890);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9006, 1, 1, 0, 0, 0, 4156);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9007, 2, 1, 0, 0, 0, 6543);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9008, 1, 1, 0, 0, 0, 8765);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9009, 1, 1, 0, 0, 0, 2345);
+
+
+--plenos
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9010, 3, 0, 1, 0, 0, 1718);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9011, 5, 0, 1, 0, 0, 7734);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9012, 3, 0, 1, 0, 0, 4321);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9013, 3, 0, 1, 0, 0, 5578);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9014, 4, 0, 1, 0, 0, 56);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9015, 5, 0, 1, 0, 0, 7778);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9016, 5, 0, 1, 0, 0, 4446);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9017, 3, 0, 1, 0, 0, 6665);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9018, 4, 0, 1, 0, 0, 8845);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9019, 4, 0, 1, 0, 0, 9996);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9020, 5, 0, 1, 0, 0, 6667);
+
+--seniors
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9021, 6, 0, 0, 1, 0, 1987);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9022, 7, 0, 0, 1, 0, 6544);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9023, 6, 0, 0, 1, 0, 7);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9024, 7, 0, 0, 1, 0, 1517);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9025, 8, 0, 0, 1, 0, 1918);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9026, 8, 0, 0, 1, 0, 3336);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9027, 7, 0, 0, 1, 0, 1217);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9028, 8, 0, 0, 1, 0, 1615);
+
+--especialistas
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9029, 10, 0, 0, 0, 1, 2222);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9030, 10, 0, 0, 0, 1, 2529);
+
+INSERT INTO senioridade (id_senioridade, anos_de_experiencia, junior, pleno, senior, especialista, id_colaborador)
+VALUES (9031, 10, 0, 0, 0, 1, 2129);

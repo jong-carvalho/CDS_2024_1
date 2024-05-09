@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  oracle-server-db: 
+    container_name: oracle-server-db
+    image: gvenzl/oracle-xe
+    ports:
+      - "1521:1521"
+    environment:
+      ORACLE_PASSWORD: "SuperPassword@22"
