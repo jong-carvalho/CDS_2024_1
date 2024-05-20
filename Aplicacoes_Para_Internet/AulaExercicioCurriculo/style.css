@@ -1,0 +1,84 @@
+/* PARTE 2 */
+* {
+    margin: 0;
+    padding: 0;
+    /* O box-sizing com o valor border-box faz com que o navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura */
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: lightblue;
+    /* Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
+    display: flex;
+    justify-content: center;
+    /* O align-items alinha os flex itens de acordo com o eixo do container */
+    align-items: center;
+    min-height: 100vh;
+}
+/* FIM PARTE 2 */
+
+/* PARTE 3B */
+.container {
+    /* position relative segue o fluxo normal do documento, podendo ser adicionado valores de posicionamento como top, bottom, left, right */
+    position: relative;
+    width: 100%;
+    /* largura máxima do elemento */
+    max-width: 1000px;
+    /* tamanho minimo do elemento */
+    min-height: 1000px;
+    /* é a maneira abreviada para determinar todas as funções do background */
+    background: #fff;
+    margin: 50px;
+    /* faz com que o elemento ocupe a linha inteira */
+    display: grid;
+    /* quantas colunas o grid vai ter, tamanho das duas colunas */
+    /* fr é a fração do espaço */
+    grid-template-columns: 1fr 2fr;
+    /* adiciona efeito de sombra no elemento */
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+/* FIM PARTE 3B */
+
+/* PARTE 4B */
+.container .left_side{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.profile_text {
+    position: relative;
+    /* define como será o tipo de exibição dos filhos, cada filha nesse caso se aloca conforme o tamanho do seu conteúdo */
+    display: flex;
+    /* define a direção dos filhos */
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile_text .profile_image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* exibe o conteúdo do elemento conforme o tamanho do elemento, quando passa desse tamanho esconde o restante do conteúdo */
+    overflow: hidden;
+}
+
+.profile_text h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    /* espaçamento entre as linhas */
+    line-height: 1.8em;
+}
+
+.profile_text h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
